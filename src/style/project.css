@@ -1,0 +1,102 @@
+:root {
+    --bg-color: #24263b;
+    --bg-orange: #fd7e14;
+}
+
+.project-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 105vh;
+    width: 100%;
+    background-color: var(--bg-color);
+    border-top-right-radius: 92px;
+    /* border-top-left-radius: 148px; */
+    margin-top: 38px;
+}
+
+.project-cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    height: 75vh;
+    width: 100%;
+}
+
+.project{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 47%;
+    border: 1px solid var(--bg-color);
+    transition: all 0.3s ease-out;
+}
+
+.project::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: 1;
+}
+
+#project-1::after{
+    background: url("../static/Todo.jpg") center center/cover no-repeat;
+}
+
+#project-2::after{
+    background: url("../static/Dailynews.jpg") center center/cover no-repeat;
+}
+
+#project-3::after{
+    background: url("../static/textutils.jpg") center center/cover no-repeat;
+}
+
+#project-4::after{
+    background: url("../static/AiTrainer.jpg") center center/cover no-repeat;
+}
+
+#project-5::after{
+    background: url("../static/crowdfunding.png") center center/cover no-repeat;
+}
+
+#project-6::after{
+    background: url("../static/dicegame.jpg") center center/cover no-repeat;
+}
+
+.project:hover::after{
+    opacity: 0.7;
+}
+
+.project:hover .view-project{
+    opacity: 1;
+    z-index: 2;
+    width: 26.88vh;
+    height: 70%;
+}
+
+.view-project{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 0;
+    height: 0;      /* 38.4% */
+    border-radius: 50%;
+    background-color: var(--bg-orange);
+    transition: all 0.3s ease-in;
+    opacity: 0;
+}
+
+.view-project a{
+    text-decoration: none;
+    color: var(--bg-color);
+    font-size: 1.2rem;
+    font-weight: bold;
+}

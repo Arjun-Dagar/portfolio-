@@ -1,0 +1,18 @@
+:root {
+    --bg-color: #24263b;
+    --bg-orange: #fd7e14;
+}
+
+.offcanvas{
+    background: #fd7e14;
+    color: var(--bg-color);
+    border-top-left-radius: 124px;
+    border-bottom-left-radius: 147px;
+    padding: 50px 30px;
+}
+
+.offcanvas-body{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: black;
+}

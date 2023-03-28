@@ -1,0 +1,122 @@
+:root {
+    --bg-color: #24263b;
+    --bg-orange: #fd7e14;
+}
+
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--bg-color);
+}
+
+.contact-cont-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 80%;
+    background-color: white;
+    box-shadow: 1px 1px 7px var(--bg-orange);
+}
+
+.left-contact-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 55%;
+    /* background-color: black; */
+}
+
+.left-contact-container p{
+    margin: 0;
+    margin-top: 7%;
+    width: 100%;
+    margin-left: 5%;
+}
+
+.left-contact-container h1{
+    margin-top: 10px;
+    width: 100%;
+    margin-left: 3%;
+}
+
+.contact-links{
+    width: 100%;
+    margin-left: 5%;
+}
+
+.contact-links a{
+    text-decoration: none;
+    margin-right: 10px;
+    color: var(--bg-color);
+}
+
+.img-cont{
+    height: 56%;
+    width: 96%;
+}
+
+.img-cont img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.form-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 46%;
+    height: 100%;
+}
+
+.form-container form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 83%;
+    width: 90%;
+    padding: 0 20px;
+    background-color: var(--bg-color);
+    margin-bottom: 5%;
+    margin-left: 4%;
+    border-radius: 27px;
+    color: white;
+}
+
+.form-container form input{
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 7px;
+}
+
+.form-container form textarea{
+    border-radius: 7px;
+}
+
+.form-container form button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    margin-top: 10px;
+    border-radius: 20px;
+    background: var(--bg-orange);
+    font-weight: bold;
+    color: #24263b;
+    transition: all 0.3s linear;
+    border: none;
+}
+
+.form-container form button:hover{
+    transform: scale(1.1);
+}
+
+.form-container form button svg{
+    margin-left: 5px;
+}

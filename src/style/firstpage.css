@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+
+:root {
+    --bg-color: #24263b;
+    --bg-orange: #fd7e14;
+}
+
+.outer-first-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: var(--bg-color);
+}
+
+.first-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 82%;
+}
+
+.cont-container {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
+    /* background-color: greenyellow; */
+    padding: 75px 35px;
+}
+
+.name-container {
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.name-container p {
+    display: flex;
+    /* position: relative; */
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 6.3rem;
+    line-height: 4.7rem;
+    transition: all 0.3s ease-out;
+}
+
+/* .name-container p span{
+    position: absolute;
+} */
+
+.name-container p span:hover {
+    color: var(--bg-orange);
+    animation: blast 1s linear 1;
+}
+
+@keyframes blast {
+    0% {
+        transform: scale(1, 1) translateY(0);
+    }
+    10% {
+        transform: scale(1.1, .9) translateY(0);
+    }
+    30% {
+        transform: scale(.9, 1.1) translateY(-30px);
+    }
+    50% {
+        transform: scale(1.05, .95) translateY(0);
+    }
+    58% {
+        transform: scale(1, 1) translateY(-7px);
+    }
+    65% {
+        transform: scale(1, 1) translateY(0);
+    }
+    100% {
+        transform: scale(1, 1) translateY(0);
+    }
+}
+
+.arjun span{
+    position: relative;
+    /* filter: blur(5px); */
+    padding: 6px 10px;
+    transition: 0.5s;
+}
+
+.arjun span:hover{
+    filter: blur(0px);
+    transition: 0s;
+}
+
+.arjun span i{
+    position: absolute;
+    inset: 0;
+    /* background-color: red; */
+}
+
+.arjun span:hover i::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 8px;
+    background: white;
+    box-shadow: 0 82px #fff, 88px 82px #fff, 88px 0 #fff;
+}
+
+.arjun span:hover i::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 8px;
+    height: 2px;
+    background: white;
+    box-shadow: 0 90px #fff, 82px 90px #fff, 82px 0 #fff
+}
+
+.styles_typicalWrapper__1_Uvh {
+    color: var(--bg-orange);
+    font-size: 2.5rem;
+}
+
+.button-container {
+    display: flex;
+}
+
+.contact-button {
+    text-decoration: none;
+    width: 100%;
+    max-width: 200px;
+    height: 44px;
+    display: block;
+    line-height: 40px;
+    letter-spacing: 3px;
+    position: relative;
+    text-align: center;
+    color: var(--bg-color);
+    margin-top: 25px;
+    margin-right: 15px;
+}
+
+.contact-button div {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transition: all .3s ease-in-out;
+    background: white;
+    border: none;
+    border-radius: 13px;
+    font-family: 'Aclonica', sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.contact-button span.bg {
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    left: -5px;
+    top: 0;
+    transition: all .3s ease-in-out;
+    background-color: var(--bg-orange);
+    transform: skewX(-19deg);
+}
+
+.contact-button:hover span.bg {
+    width: 110%;
+}
+
+.contact-button span.base {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    box-sizing: border-box;
+}
+
+.contact-button span.text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 5px 10px;
+    top: 0;
+    left: 0;
+}
+
+.contact-button:hover span.text {
+    color: #1d1d1d;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+    background-color: var(--bg-color);
+}
+
+.profile-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 32vw;
+    box-shadow: 0 1px 0 0 #fff;
+    border-radius: 50%;
+}
+
+.profile-pic img {
+    width: 92%;
+    height: 92%;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+}
+
+.profile-pic img:hover{
+    transform: scale(1.05);
+}
+
+.footer-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 18%;
+}
+
+.footer-image img {
+    width: 100%;
+    height: 100%;
+}

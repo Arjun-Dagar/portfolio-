@@ -1,0 +1,46 @@
+:root {
+    --bg-color: #24263b;
+    --bg-orange: #fd7e14;
+}
+
+.heading-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    width: 100%;
+}
+
+.heading-container h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.seperator{
+    position: relative;
+    width: 218px;
+    height: 3px;
+    background: black;
+    border-radius: 15px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.white-bg{
+    background: white;
+}
+
+.white-color{
+    color: white;
+}
+
+.middle{
+    position: absolute;
+    width: 50px;
+    height: 10px;
+    left: 41%;
+    top: -4px;
+    border-radius: 10px;
+    background: var(--bg-orange);
+}
