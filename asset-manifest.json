@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Arjun-Dagar/portfolio-/static/css/main.98e2ddd8.css",
+    "main.js": "/Arjun-Dagar/portfolio-/static/js/main.5f02621e.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Arjun-Dagar/portfolio-/static/js/787.1ed0c42c.chunk.js",
+    "static/media/ConnectsysLetter.pdf": "/Arjun-Dagar/portfolio-/static/media/ConnectsysLetter.ebf2cd6c766822bbf341.pdf",
+    "static/media/profile-pic.jpg": "/Arjun-Dagar/portfolio-/static/media/profile-pic.4ec6ff8872a9a2d3e3ab.jpg",
+    "static/media/dicegame.jpg": "/Arjun-Dagar/portfolio-/static/media/dicegame.5409f2b68ec721a558ca.jpg",
+    "static/media/PowerpBoxInternshipExperienceLetter.pdf": "/Arjun-Dagar/portfolio-/static/media/PowerpBoxInternshipExperienceLetter.2fcf7b07f819c470238f.pdf",
+    "static/media/AiTrainer.jpg": "/Arjun-Dagar/portfolio-/static/media/AiTrainer.3616f1c936517cd154db.jpg",
+    "static/media/Dailynews.jpg": "/Arjun-Dagar/portfolio-/static/media/Dailynews.e47d3652f5facc99a869.jpg",
+    "static/media/textutils.jpg": "/Arjun-Dagar/portfolio-/static/media/textutils.0a2e0be5538894a62f8c.jpg",
+    "static/media/Todo.jpg": "/Arjun-Dagar/portfolio-/static/media/Todo.78ae9040b44dbc515277.jpg",
+    "static/media/crowdfunding.png": "/Arjun-Dagar/portfolio-/static/media/crowdfunding.4ca45c4322d32b844b73.png",
+    "static/media/resume.pdf": "/Arjun-Dagar/portfolio-/static/media/resume.6ef27b146e9df5a2a6fc.pdf",
+    "static/media/interest.jpg": "/Arjun-Dagar/portfolio-/static/media/interest.0e1bbe7e7370a8ec18a0.jpg",
+    "index.html": "/Arjun-Dagar/portfolio-/index.html",
+    "main.98e2ddd8.css.map": "/Arjun-Dagar/portfolio-/static/css/main.98e2ddd8.css.map",
+    "main.5f02621e.js.map": "/Arjun-Dagar/portfolio-/static/js/main.5f02621e.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Arjun-Dagar/portfolio-/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.98e2ddd8.css",
+    "static/js/main.5f02621e.js"
+  ]
+}
