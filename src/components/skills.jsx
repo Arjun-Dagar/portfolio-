@@ -7,7 +7,6 @@ function Skills() {
     eval(`
     try {
       TagCanvas.Start("myCanvas", "tags", {
-        
         textColour: "#24263b",
         outlineColour: "transparent",
         textHeight: 17,
@@ -19,6 +18,7 @@ function Skills() {
       });
     } catch (e) {
       // something went wrong, hide the canvas container
+      console.log(e);
       document.getElementById("myCanvasContainer").style.display = "none";
     }`);
   }, []);

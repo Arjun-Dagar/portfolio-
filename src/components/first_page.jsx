@@ -30,7 +30,7 @@ function FirstPage() {
               </p>
             </div>
             <Typical
-              steps={["Flutter App Developer😎", 5000, "Loves DSA💕", 3000, "Web Developer", 3000]}
+              steps={["Flutter App Developer", 5000, "Loves DSA", 3000, "Web Developer", 3000]}
               loop={Infinity}
             />
             <div className="button-container">
@@ -56,9 +56,11 @@ function FirstPage() {
           </div>
           <div className="img-container">
             <div className="profile-pic">
-              <img src={require("../static/profile-pic.jpg")} alt="" />
+              <img src={require("../static/profile-pic.jfif")} alt="" />
             </div>
           </div>
+
+          
         </div>
         <div className="footer-image">
           <img src={require("../static/bgfooter.png")} alt="" />
